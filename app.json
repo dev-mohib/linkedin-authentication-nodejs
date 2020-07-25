@@ -1,0 +1,12 @@
+{
+    "name": "linkedin-server",
+    "description": "A Express server for accessing LinkedIn users for 3rd party authentications",
+    "repository" : "https://github.com/dev-mohib/linkedin-authentication-nodejs.git",
+    "keywords": [
+        "LinkedIn",
+        "Auth",
+        "LinkedIn",
+        "Nodejs"
+      ],
+      "image": "heroku/nodejs"
+}

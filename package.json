@@ -1,0 +1,38 @@
+{
+  "name": "linkedin-server",
+  "version": "1.0.0",
+  "description": "A Express server for accessing LinkedIn users for 3rd party authentications",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node" : "10.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-mohib/linkedin-authentication-nodejs.git"
+  },
+  "keywords": [
+    "LinkedIn",
+    "Auth",
+    "LinkedIn",
+    "Nodejs"
+  ],
+  "author": "Dev Mohib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-mohib/linkedin-authentication-nodejs/issues"
+  },
+  "homepage": "https://github.com/dev-mohib/linkedin-authentication-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4"
+  }
+}
